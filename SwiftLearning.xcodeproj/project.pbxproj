@@ -162,6 +162,7 @@
 		587505C71BADFAF300D2B802 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Mohanad;
 				TargetAttributes = {
@@ -417,6 +418,7 @@
 				587505F31BADFAF300D2B802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		587505F41BADFAF300D2B802 /* Build configuration list for PBXNativeTarget "SwiftLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +427,7 @@
 				587505F61BADFAF300D2B802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

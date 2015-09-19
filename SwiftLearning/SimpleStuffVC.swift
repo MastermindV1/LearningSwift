@@ -24,7 +24,7 @@ class SimpleStuffVC : UIViewController{
     }
 // Fibonacci Calculator
     func fibonacci(){
-        var swap:Int = nextNumber
+        let swap:Int = nextNumber
         nextNumber = number + nextNumber
         number = swap
     }
