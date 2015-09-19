@@ -14,6 +14,7 @@
 		587505E21BADFAF300D2B802 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587505E01BADFAF300D2B802 /* LaunchScreen.xib */; };
 		587505EE1BADFAF300D2B802 /* SwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587505ED1BADFAF300D2B802 /* SwiftLearningTests.swift */; };
 		587505FA1BADFCD100D2B802 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587505F91BADFCD100D2B802 /* MainTableViewController.swift */; };
+		587505FC1BAE019000D2B802 /* SimpleStuffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587505FB1BAE019000D2B802 /* SimpleStuffVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		587505EC1BADFAF300D2B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587505ED1BADFAF300D2B802 /* SwiftLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningTests.swift; sourceTree = "<group>"; };
 		587505F91BADFCD100D2B802 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		587505FB1BAE019000D2B802 /* SimpleStuffVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStuffVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				587505D61BADFAF300D2B802 /* SwiftLearning.xcdatamodeld */,
 				587505D21BADFAF300D2B802 /* Supporting Files */,
 				587505F91BADFCD100D2B802 /* MainTableViewController.swift */,
+				587505FB1BAE019000D2B802 /* SimpleStuffVC.swift */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				587505D51BADFAF300D2B802 /* AppDelegate.swift in Sources */,
+				587505FC1BAE019000D2B802 /* SimpleStuffVC.swift in Sources */,
 				587505FA1BADFCD100D2B802 /* MainTableViewController.swift in Sources */,
 				587505D81BADFAF300D2B802 /* SwiftLearning.xcdatamodeld in Sources */,
 			);
