@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5831301D1BB375EF00AB8987 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831301C1BB375EF00AB8987 /* ClosureViewController.swift */; };
 		587505D51BADFAF300D2B802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587505D41BADFAF300D2B802 /* AppDelegate.swift */; };
 		587505D81BADFAF300D2B802 /* SwiftLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 587505D61BADFAF300D2B802 /* SwiftLearning.xcdatamodeld */; };
 		587505DD1BADFAF300D2B802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587505DB1BADFAF300D2B802 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5831301C1BB375EF00AB8987 /* ClosureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 		587505CF1BADFAF300D2B802 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587505D31BADFAF300D2B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587505D41BADFAF300D2B802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,12 +85,13 @@
 			children = (
 				587505D41BADFAF300D2B802 /* AppDelegate.swift */,
 				587505DB1BADFAF300D2B802 /* Main.storyboard */,
-				587505DE1BADFAF300D2B802 /* Images.xcassets */,
 				587505E01BADFAF300D2B802 /* LaunchScreen.xib */,
 				587505D61BADFAF300D2B802 /* SwiftLearning.xcdatamodeld */,
-				587505D21BADFAF300D2B802 /* Supporting Files */,
 				587505F91BADFCD100D2B802 /* MainTableViewController.swift */,
 				587505FB1BAE019000D2B802 /* SimpleStuffVC.swift */,
+				587505D21BADFAF300D2B802 /* Supporting Files */,
+				587505DE1BADFAF300D2B802 /* Images.xcassets */,
+				5831301C1BB375EF00AB8987 /* ClosureViewController.swift */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				587505D51BADFAF300D2B802 /* AppDelegate.swift in Sources */,
 				587505FC1BAE019000D2B802 /* SimpleStuffVC.swift in Sources */,
+				5831301D1BB375EF00AB8987 /* ClosureViewController.swift in Sources */,
 				587505FA1BADFCD100D2B802 /* MainTableViewController.swift in Sources */,
 				587505D81BADFAF300D2B802 /* SwiftLearning.xcdatamodeld in Sources */,
 			);
@@ -417,6 +421,7 @@
 				587505F31BADFAF300D2B802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		587505F41BADFAF300D2B802 /* Build configuration list for PBXNativeTarget "SwiftLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				587505F61BADFAF300D2B802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
