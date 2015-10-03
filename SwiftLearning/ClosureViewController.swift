@@ -10,10 +10,18 @@ import UIKit
 
 class ClosureViewController : UIViewController{
     // 'let' defines a constant
-    let x = 10
+    var x = ["way", "down", "to", "kokomo"]
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder);
+        
+        // a closure/lambda
+        var sorted = x.sort({ (string1: String, string2: String) -> Bool in
+            return string1 > string2
+        })
+
+        
+        
     }
 
 }
