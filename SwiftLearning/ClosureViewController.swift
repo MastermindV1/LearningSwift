@@ -16,10 +16,9 @@ class ClosureViewController : UIViewController{
         super.init(coder: aDecoder);
         
         // a closure/lambda
-        var sorted = x.sort({ (string1: String, string2: String) -> Bool in
+        _ = x.sort({ (string1: String, string2: String) -> Bool in
             return string1 > string2
         })
-
         
         
     }
