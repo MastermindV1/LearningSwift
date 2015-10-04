@@ -19,6 +19,7 @@
 		58BEC3B21BC08C7B0062BED3 /* Ismael.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BEC3B11BC08C7B0062BED3 /* Ismael.storyboard */; settings = {ASSET_TAGS = (); }; };
 		58BEC3B41BC08C950062BED3 /* Mohanad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BEC3B31BC08C950062BED3 /* Mohanad.storyboard */; settings = {ASSET_TAGS = (); }; };
 		58BEC3B61BC08CB10062BED3 /* Firass.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BEC3B51BC08CB10062BED3 /* Firass.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8158A0F21BC0BF1800CD76CC /* QuizTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158A0F11BC0BF1800CD76CC /* QuizTimeVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		58BEC3B11BC08C7B0062BED3 /* Ismael.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ismael.storyboard; sourceTree = "<group>"; };
 		58BEC3B31BC08C950062BED3 /* Mohanad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mohanad.storyboard; sourceTree = "<group>"; };
 		58BEC3B51BC08CB10062BED3 /* Firass.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Firass.storyboard; sourceTree = "<group>"; };
+		8158A0F11BC0BF1800CD76CC /* QuizTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTimeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				587505D61BADFAF300D2B802 /* SwiftLearning.xcdatamodeld */,
 				587505F91BADFCD100D2B802 /* MainTableViewController.swift */,
 				587505FB1BAE019000D2B802 /* SimpleStuffVC.swift */,
+				8158A0F11BC0BF1800CD76CC /* QuizTimeVC.swift */,
 				587505D21BADFAF300D2B802 /* Supporting Files */,
 				587505DE1BADFAF300D2B802 /* Images.xcassets */,
 				5831301C1BB375EF00AB8987 /* ClosureViewController.swift */,
@@ -237,6 +240,7 @@
 			files = (
 				587505D51BADFAF300D2B802 /* AppDelegate.swift in Sources */,
 				587505FC1BAE019000D2B802 /* SimpleStuffVC.swift in Sources */,
+				8158A0F21BC0BF1800CD76CC /* QuizTimeVC.swift in Sources */,
 				5831301D1BB375EF00AB8987 /* ClosureViewController.swift in Sources */,
 				587505FA1BADFCD100D2B802 /* MainTableViewController.swift in Sources */,
 				587505D81BADFAF300D2B802 /* SwiftLearning.xcdatamodeld in Sources */,
