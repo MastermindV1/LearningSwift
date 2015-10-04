@@ -16,11 +16,18 @@ class ClosureViewController : UIViewController{
         super.init(coder: aDecoder);
         
         // a closure/lambda
-        _ = x.sort({ (string1: String, string2: String) -> Bool in
+        let sorted: [String] = x.sort({ (string1: String, string2: String) -> Bool in
             return string1 > string2
         })
         
+        // Optional values are defined with the ? and mean that it can exist or not
+        var a: Int?
+        a = 0
+        // Acess an optional's value with !
+        print(a!)
         
+        
+        print(x)
+        print(sorted)
     }
-
 }
