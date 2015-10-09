@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Practices-->
@@ -267,22 +268,38 @@
             </objects>
             <point key="canvasLocation" x="867" y="554"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Mo Table View Controller-->
         <scene sceneID="0MZ-6x-cRQ">
             <objects>
-                <tableViewController id="Kwp-b5-8Fj" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="sYa-gx-xHt">
+                <tableViewController id="Kwp-b5-8Fj" customClass="MoTableViewController" customModule="SwiftLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="sYa-gx-xHt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Tri-ee-cVM">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoTableCell" rowHeight="90" id="Tri-ee-cVM" customClass="MoTableCell" customModule="SwiftLearning" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tri-ee-cVM" id="016-oN-UFB">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5by-8O-F82">
+                                            <rect key="frame" x="8" y="26" width="28" height="37"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                            <color key="textColor" red="0.87536090353260865" green="0.44517560417917224" blue="0.28581287469569572" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bzr-ua-CUx">
+                                            <rect key="frame" x="72" y="13" width="120" height="64"/>
+                                            <color key="backgroundColor" red="0.48460773300137672" green="1" blue="0.6383041830767664" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="colorView" destination="Bzr-ua-CUx" id="frj-va-5vX"/>
+                                    <outlet property="letterLabel" destination="5by-8O-F82" id="3dV-7Z-69A"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -290,11 +307,21 @@
                             <outlet property="delegate" destination="Kwp-b5-8Fj" id="7LA-kl-MdR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="obu-vt-ZUK"/>
+                    <navigationItem key="navigationItem" id="obu-vt-ZUK">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="ooh-tJ-KBV">
+                                <connections>
+                                    <action selector="addItem:" destination="Kwp-b5-8Fj" id="bZx-AW-Lmn"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="edit" id="0rs-i6-vMW"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WWD-DE-KAc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="1538"/>
+            <point key="canvasLocation" x="596" y="1485"/>
         </scene>
     </scenes>
     <resources>

@@ -34,6 +34,7 @@ class PictureStore{
         let path = imagePathForKey("pictures")
         filemanager.createFileAtPath(path, contents: NSKeyedArchiver.archivedDataWithRootObject(picArray), attributes: nil)
     }
+    
     // This method will give you a path for the image to be placed in
     func imagePathForKey(key: String) -> String{
 
