@@ -62,7 +62,8 @@ class MoTableViewController : UITableViewController{
         //let array = alphabet.componentsSeparatedByString(",")
         let randColor: UIColor = UIColor(hue: CGFloat(drand48()), saturation: CGFloat(1.0), brightness: CGFloat(1.0), alpha: CGFloat(1.0))
         
-        let randomLetter =  alphabet.characterAtIndex(Int(arc4random()) % alphabet.length)
+        let randomIndex = arc4random_uniform(UInt32(alphabet.length))
+        let randomLetter =  alphabet.characterAtIndex(Int(randomIndex))
         let randomString =  NSString(characters:[randomLetter], length:1)
         var dict = [String: AnyObject]()
         dict["color"] = randColor
