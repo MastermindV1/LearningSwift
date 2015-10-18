@@ -25,6 +25,8 @@
 		58F1C8CF1BC75EAE00E07CB1 /* MoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F1C8CE1BC75EAE00E07CB1 /* MoTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		58F1C8D11BC760DA00E07CB1 /* MoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F1C8D01BC760DA00E07CB1 /* MoTableCell.swift */; settings = {ASSET_TAGS = (); }; };
 		8158A0F21BC0BF1800CD76CC /* QuizTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158A0F11BC0BF1800CD76CC /* QuizTimeVC.swift */; settings = {ASSET_TAGS = (); }; };
+		81C8AF441BD3391D00360D69 /* iADeviceTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AF431BD3391D00360D69 /* iADeviceTableVC.swift */; settings = {ASSET_TAGS = (); }; };
+		81D4D7C71BD2F31500488251 /* AskAQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4D7C61BD2F31500488251 /* AskAQuestionVC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		58F1C8CE1BC75EAE00E07CB1 /* MoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoTableViewController.swift; sourceTree = "<group>"; };
 		58F1C8D01BC760DA00E07CB1 /* MoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoTableCell.swift; sourceTree = "<group>"; };
 		8158A0F11BC0BF1800CD76CC /* QuizTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTimeVC.swift; sourceTree = "<group>"; };
+		81C8AF431BD3391D00360D69 /* iADeviceTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iADeviceTableVC.swift; path = ../iADeviceTableVC.swift; sourceTree = "<group>"; };
+		81D4D7C61BD2F31500488251 /* AskAQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskAQuestionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		587505D11BADFAF300D2B802 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				81C8AF431BD3391D00360D69 /* iADeviceTableVC.swift */,
 				587505D41BADFAF300D2B802 /* AppDelegate.swift */,
 				587505DB1BADFAF300D2B802 /* Main.storyboard */,
 				587505E01BADFAF300D2B802 /* LaunchScreen.xib */,
@@ -119,6 +124,7 @@
 				58E6B75B1BC1B9C2002F0BFF /* CollectionViewCell.swift */,
 				58F1C8CE1BC75EAE00E07CB1 /* MoTableViewController.swift */,
 				58F1C8D01BC760DA00E07CB1 /* MoTableCell.swift */,
+				81D4D7C61BD2F31500488251 /* AskAQuestionVC.swift */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -258,10 +264,12 @@
 				587505D51BADFAF300D2B802 /* AppDelegate.swift in Sources */,
 				587505FC1BAE019000D2B802 /* SimpleStuffVC.swift in Sources */,
 				58E6B75C1BC1B9C2002F0BFF /* CollectionViewCell.swift in Sources */,
+				81C8AF441BD3391D00360D69 /* iADeviceTableVC.swift in Sources */,
 				8158A0F21BC0BF1800CD76CC /* QuizTimeVC.swift in Sources */,
 				5831301D1BB375EF00AB8987 /* ClosureViewController.swift in Sources */,
 				58E4F6301BC19F6500574378 /* MoCameraCollectionVC.swift in Sources */,
 				587505FA1BADFCD100D2B802 /* MainTableViewController.swift in Sources */,
+				81D4D7C71BD2F31500488251 /* AskAQuestionVC.swift in Sources */,
 				58F1C8CF1BC75EAE00E07CB1 /* MoTableViewController.swift in Sources */,
 				58E4F6321BC1A0FF00574378 /* PictureStore.swift in Sources */,
 				587505D81BADFAF300D2B802 /* SwiftLearning.xcdatamodeld in Sources */,
